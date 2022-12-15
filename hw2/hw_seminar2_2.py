@@ -2,12 +2,19 @@
 # Пример:
 # - пусть N = 4, тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
-num = int(input("Введите целое число: "))
-my_lst = []
-x=1
-n=1
-while n<= num:
-    x=x*n
-    my_lst.append(x)
-    n+=1
-print (my_lst)
+# num = int(input("Введите целое число: "))
+# my_lst = []
+# x=1
+# n=1
+# while n<= num:
+#     x=x*n
+#     my_lst.append(x)
+#     n+=1
+# print (my_lst)
+
+print("Введите целое число: ")
+n = int(input())
+p = 1
+for i in range(1, n + 1):
+    p = p*i
+    print(p, end = ' ')
