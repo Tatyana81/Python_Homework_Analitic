@@ -259,6 +259,7 @@ for i in range(0,9):
     printpole()
     
     if hod2() == 1:
+        printpole()
         break
 
     printpole()
